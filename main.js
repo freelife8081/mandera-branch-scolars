@@ -1,13 +1,31 @@
-//#Source https://bit.ly/2neWfJ2 
+// Check if the device is a desktop
 
-const detectDeviceType = () =>
+const isDesktop = window.matchMedia("(min-width: 768px)").matches;
 
-  /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+if (isDesktop) {
 
-    ? 'Mobile'
+  // Set the desktop view
 
-    : 'Desktop';
+  // Code to set the desktop view goes here
 
-console.log(detectDeviceType()); // "Mobile" or "Desktop"
+} else {
+
+  // Set the mobile view
+
+  // Code to set the mobile view goes here
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
