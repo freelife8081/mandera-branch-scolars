@@ -1,0 +1,22 @@
+.bh{
+  background-image: url(bg.gif);
+  font-family: Arial, sans-serif;
+  color: white;
+  font-style: fantasy;
+}
+.dd{
+  color: white;
+  background-color: green;
+}
+.kg{
+  width:  auto;
+  height: 300px;
+  padding: 3px;
+  border-radius: 20px;
+  border-color: red;
+}
+.dik{
+  background-color: purple;
+  padding: 20px;
+  border-radius: 5px;
+}
