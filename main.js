@@ -1,1 +1,13 @@
-console.log('Hello World!');
+//#Source https://bit.ly/2neWfJ2 
+
+const detectDeviceType = () =>
+
+  /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+
+    ? 'Mobile'
+
+    : 'Desktop';
+
+console.log(detectDeviceType()); // "Mobile" or "Desktop"
+
+
